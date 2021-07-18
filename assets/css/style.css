@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+}
+
+h5 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+.logo {
+    display: flex;
+    
+}
+.logo-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    display: inline-block;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #000000;
+    padding: 8px;
+}
+.left-nav {
+    display: inline-flex;
+    width: 633px;
+    height: 34px;
+    margin: 19px 0px;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    width: 430px;
+    justify-content: space-between;
+    gap: 33px;
+}
+
+.nav-item {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+    margin: auto 0px;
+    color: #18191F;
+}
+.nav-item:last-child {
+    display: flex;
+}
+
+.right-nav {
+    display: inline-flex;
+    margin-left: 12rem;
+    gap: 8px;
+}
+.cont {
+    padding-top: 84px;
+    width: 730px
+}
+
+.cont h1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    /* or 136% */
+
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Text / Gray 900 */
+
+    color: #18191F;
+}
+.cont button {
+    align-items: center;
+    padding: 12px 32px;
+    background: #8C30F5;
+    border-radius: 6px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    /* Default / White */
+
+    color: #FFFFFF;
+    border: none;
+    margin-top: 32px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 84px;
+}
+
+.hero-image {
+    width: 32%;
+}
+.slider-container{
+    padding: 1rem;
+  }
+  
+  .company_slide_inner {
+    padding: 48px 0;
+    position: relative;
+  }
+  
+  .company_slide_inner::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+  }
+  
+  .company_slide_inner::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+  }
+  
+  .company_slide_image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  
+  .slider-container .slide-left {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slider-container .slide-right {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.1rem;
+    line-height: 64px;
+    /* identical to box height, or 133% */
+  
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+  
+  
+  }
+
+  .features {
+    margin-top: 1.4rem;
+  }
+
+  p {
+    width: 540px;
+    margin: 0 auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    
+    padding: .4rem;
+    /* Text / Gray 900 */
+    
+    color: #18191F;
+  }
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 2.8rem;
+}
+
+.feature {
+    max-width: 350px;
+    text-align: center;
+    margin-bottom: 2.3rem;
+}
+
+.feature-details > p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 100%;
+    padding: 8px 0px 0px 0px;
+}
+
+.feature-details h5 {
+    margin-top: 1.2rem;
+}
+
+@media screen (max-width: 540px) {
+    .feature {
+        max-width: 400px;
+    }
+}
